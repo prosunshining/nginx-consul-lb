@@ -18,7 +18,7 @@ dependencies:
 
 test:
   override:
-    - docker run -d -p ${PORT}:${PORT} ${IMAGE}:${VERSION}
+    - docker run -d ${IMAGE}:${VERSION}
 
 deployment:
   hub:
